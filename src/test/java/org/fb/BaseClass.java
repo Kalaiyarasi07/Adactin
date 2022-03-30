@@ -26,10 +26,12 @@ public void launchUrl(String url) {
 public void typeText(WebElement element, String data) {
 	element.sendKeys("data");
 	element.sendKeys("data");
+	element.sendKeys("data");
+
 }
 public void getAttribute(WebElement element, String Attributevalue) {
 	String attribute = element.getAttribute("Attributevalue");
-	}
+}
 public void getText(WebElement element) {
 	String text = element.getText();
 }
