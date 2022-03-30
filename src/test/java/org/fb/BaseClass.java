@@ -24,6 +24,9 @@ public void launchUrl(String url) {
 }
 public void typeText(WebElement element, String data) {
 	element.sendKeys("data");
+System.out.println(data);
+System.out.println(data);
+
 }
 public void getAttribute(WebElement element, String Attributevalue) {
 	String attribute = element.getAttribute("Attributevalue");
